@@ -40,7 +40,7 @@ make tsp
 Run the program with this command:
 
 ```
-./tsp
+./tsp [tsp_file_name]
 ```
 
 Clean files with this command:
