@@ -43,6 +43,8 @@ Run the program with this command:
 ./tsp [tsp_file_name]
 ```
 
+Please see the example TSP files for formatting the files.
+
 Clean files with this command:
 
 ```
