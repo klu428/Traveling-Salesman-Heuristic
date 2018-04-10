@@ -1,6 +1,6 @@
 # Traveling Salesman Heuristic
 
-This program is a heuristic for solving the Traveling Salesman Problem. For explanation please read about the problem on Wikipedia: https://en.wikipedia.org/wiki/Traveling_salesman_problem.
+This program is a heuristic for solving the Traveling Salesman Problem where distances form a metric space. For explanation please read about the problem on Wikipedia: https://en.wikipedia.org/wiki/Traveling_salesman_problem.
 
 ## Christofides Algorithm
 
@@ -29,6 +29,24 @@ mechanism again. We continue iterating this algorithm until either we cannot get
 improved solution, or we can stop it after an arbitrary number of iterations. The runtime
 is O(n^3).
 
+## TSP Files
+
+Each TSP file input is formatted as follows:
+
+```
+[id] [x-coordinate] [y-coordinate]
+...
+```
+Please see the example TSP files for more information.
+
+## Output
+
+The program will output the overall distance and the path into this file:
+
+```
+[original file name].tour
+```
+
 ## Installing and Running the Program
 
 Compile the program with this command:
@@ -42,8 +60,6 @@ Run the program with this command:
 ```
 ./tsp [tsp_file_name]
 ```
-
-Please see the example TSP files for formatting the files.
 
 Clean files with this command:
 
